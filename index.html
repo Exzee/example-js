@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="welcome">😈WELCOME TO MY GHOST SHOES 😈</div>
+      <!-- <div class="cta">
+        <model-viewer
+          src="assets/scene.gltf"
+          camera-controls
+          camera-orbit="45deg 50deg"
+          disable-zoom
+          auto-rotate
+          shadow-intensity="1"
+        ></model-viewer>
+      </div> -->
+
+      <div class="newBox" id="newBox">
+        <!-- product 1 -->
+        <div class="productBox" id="productBox1">
+          <img src="assets/nike1.png" alt="" />
+          <div class="littleBox">Testing Box</div>
+          <div class="descriptionBox">Deskripsi Box</div>
+        </div>
+        <!-- product 2 -->
+        <div class="productBox" id="productBox2">
+          <img src="assets/nike2.png" alt="" />
+          <div class="littleBox">Testing Box2</div>
+          <div class="descriptionBox">Deskripsi Box2</div>
+        </div>
+        <!-- product 3 -->
+        <div class="productBox" id="productBox3">
+          <img src="assets/nike3.png" alt="" />
+          <div class="littleBox">Testing Box3</div>
+          <div class="descriptionBox">Deskripsi Box3</div>
+        </div>
+        <!-- product 4 -->
+        <div class="productBox" id="productBox4">
+          <img src="assets/nike4.png" alt="" />
+          <div class="littleBox">Testing Box4</div>
+          <div class="descriptionBox">Deskripsi Box4</div>
+        </div>
+        <!-- product 5 -->
+        <div class="productBox" id="productBox5">
+          <img src="assets/nike5.png" alt="" />
+          <div class="littleBox">Testing Box5</div>
+          <div class="descriptionBox">Deskripsi Box5</div>
+        </div>
+        <!-- product 6 -->
+        <div class="productBox" id="productBox6">
+          <img src="assets/nike6.png" alt="" />
+          <div class="littleBox">Testing Box6</div>
+          <div class="descriptionBox">Deskripsi Box6</div>
+        </div>
+      </div>
+
+      <div class="wrapper" id="wrapper">
+        <!-- Produk 1 -->
+        <div class="card">
+          <div class="product" id="product1" onclick="getDetail(1)">
+            <img src="assets/nike1.png" alt="" />
+          </div>
+          <div class="detail">
+            <div class="title">Nike Casual</div>
+            <div class="description">Deskripsi</div>
+          </div>
+        </div>
+        <!-- Produk 2 -->
+        <div class="card">
+          <div class="product" id="product2" onclick="getDetail(2)">
+            <img src="assets/nike2.png" alt="" />
+          </div>
+          <div class="detail">
+            <div class="title">Nike Sport</div>
+            <div class="description">Deskripsi</div>
+          </div>
+        </div>
+        <!-- Produk 3 -->
+        <div class="card">
+          <div class="product" id="product3" onclick="getDetail(3)">
+            <img src="assets/nike3.png" alt="" />
+          </div>
+          <div class="detail">
+            <div class="title">Nike Sprint</div>
+            <div class="description">Deskripsi</div>
+          </div>
+        </div>
+        <!-- Produk 4 -->
+        <div class="card">
+          <div class="product" id="product4" onclick="getDetail(4)">
+            <img src="assets/nike4.png" alt="" />
+          </div>
+          <div class="detail">
+            <div class="title">Nike Futsal</div>
+            <div class="description">Deskripsi</div>
+          </div>
+        </div>
+        <!-- Produk 5 -->
+        <div class="card">
+          <div class="product" id="product5" onclick="getDetail(5)">
+            <img src="assets/nike5.png" alt="" />
+          </div>
+          <div class="detail">
+            <div class="title">Nike Running</div>
+            <div class="description">Deskripsi</div>
+          </div>
+        </div>
+        <!-- Produk 6 -->
+        <div class="card">
+          <div class="product" id="product6" onclick="getDetail(6)">
+            <img src="assets/nike6.png" alt="" />
+          </div>
+          <div class="detail">
+            <div class="title">Nike Female Cream</div>
+            <div class="description">Deskripsi</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="top-item">
+      <div class="top-item-wrapper">
+        <div class="top-item-row">
+          <img src="assets/nike1.png" alt="" />
+          <div class="top-item-detail">
+            <h3>Nike Casual</h3>
+            <p>
+              Best shoes ever that was used by Cristiano Ronaldo and Lionel
+              Messi
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+    <script src="tweak.js"></script>
+  </body>
+</html>
